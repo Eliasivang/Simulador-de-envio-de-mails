@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Emails</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+   
+</head>
+<body>
+   
+    <form class="form-container">
+            <div class="h1-container">
+                 <h1>Enviar nuevo mail</h1>
+             </div>
+        <h2 class="para">Para:</h2>
+        <input class="inputs email" type="email">
+        <h2>Asunto:</h2>
+        <input class="inputs Asunto" type="text">
+        <h2>Mensaje:</h2>
+        <textarea  class="texto" placeholder=" Escriba aqui su mensaje"></textarea>
+        <div class="spinner">
+            <img class="gif" src="enviando.gif" alt="gif">
+        </div>
+            <div class="btn">
+                <button type="submit" id="btn-submit">ENVIAR</button>
+                <button type="button" id="borrar">RESETEAR FORM</button>
+            </div>
+    </form>
+    <script src='main.js'></script>   
+</body>
+</html>
